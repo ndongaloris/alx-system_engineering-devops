@@ -1,2 +1,3 @@
 #!/bin/bash
-PATH="$PATH(find . -type d -mindepth $n)"
+echo $PATH | tr -s ":" "
+" | wc -l
